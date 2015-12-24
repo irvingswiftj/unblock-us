@@ -3,6 +3,10 @@
   "version": "0.0.2",
   "description": "Client for unblock us",
   "main": "build/UnblockUs.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/irvingswiftj/unblock-us.git"
+  },
   "jest": {
     "scriptPreprocessor": "./node_modules/babel-jest",
     "testFileExtensions": [
