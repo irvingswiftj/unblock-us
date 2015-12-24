@@ -21,6 +21,20 @@ ubClient.activate()
     });
 ```
 
+### The UnblockUs class
+
+```
+var UnblockUs = require('unblock-us').UnblockUs;
+
+var ubClient = new UnblockUs({
+    username: 'foo', //String (default '')
+    password: 'bar', //String (default '')
+    secure: false, // Boolean (default false) this is not tested yet. If true, the curl calls to unblock us will over port 443
+    logLevel: 'error', //String (default 'error') this should a bunyan log level 
+});
+```
+
+
 ## Tests
 
 Coming soon
