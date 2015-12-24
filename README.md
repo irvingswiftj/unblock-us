@@ -5,7 +5,7 @@ This is a module to activate your unblock-us account with your current external 
 ## Usage
 
 ```js
-var UnblockUs = require('unblock-us');
+var UnblockUs = require('unblock-us').UnblockUs;
 
 var ubClient = new UnblockUs({
     username: 'foo',
@@ -24,3 +24,7 @@ ubClient.activate()
 ## Tests
 
 Coming soon
+
+## Contribute
+
+Please only edit the contents of the `src` directory as on publish this will be compiled into the `build` directory.
