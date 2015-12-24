@@ -5,7 +5,7 @@ import bunyan from 'bunyan';
 
 let url  = 'api.unblock-us.com';
 
-export default class UnblockUs {
+export class UnblockUs {
     constructor (opts) {
         this.setUsername(opts.username);
         this.setPassword(opts.password);
