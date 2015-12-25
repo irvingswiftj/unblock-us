@@ -24,7 +24,7 @@ export class UnblockUs {
      *
      * @param {Boolean} bool
      *
-     * @return {UnblockUsClient}
+     * @return {UnblockUs}
      *
      * @public
      */
@@ -83,7 +83,7 @@ export class UnblockUs {
      *
      * @param {String} password
      *
-     * @return {UnblockUsClient}
+     * @return {UnblockUs}
      *
      * @public
      */
